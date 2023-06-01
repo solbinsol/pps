@@ -26,6 +26,7 @@ const PPS = () =>{
     }, []);
     return(
         <div  className={`Container ${isScrolled ? "scrolled" : ""}`}>
+            
 
             <div className="header">
                 <h1 className="logo">KSB's Portfolio</h1>
@@ -51,7 +52,7 @@ const PPS = () =>{
                 <div className="AboutHeader">
                     <h1 >ABOUT ME</h1>
                 </div>
-                <div className={`AboutItem ${isMobile ? "mobile" : ""}`}>
+                <div className={`AboutItem ${isMobile ? "mobile" : ""}${isMoniter ? "Moniter" : ""}`}>
                     <ul className="TT">
                         <ul>이름  &nbsp; 
  
@@ -62,7 +63,7 @@ const PPS = () =>{
                         <li><span>1999.12.29</span></li>
                         </ul>
                         <ul>주소지
-                        <li><span>경기도 수원시 권선구</span></li>
+                        <li><span>경기도 수원시</span></li>
                         </ul>
                         <ul>연락처  &nbsp;
                         <li><span>010-6286-7011</span></li>
@@ -84,11 +85,13 @@ const PPS = () =>{
                     <p className="AFP">* 채용 제의 또는 / 문의는 위 연락처 / 이메일로 부탁드립니다.</p>
                 </div>
             </div>
-            <div className={`Skills ${isMobile ? "mobile" : ""}`}>
+            <div className={`Skills ${isMobile ? "mobile" : ""}
+            ${isMoniter ? "Moniter" : ""}`}>
             <div className="AboutHeader">
                     <h1 className="SkillName">SKILLS</h1>
                     </div>
-                <div className={`SkillsItem ${isMobile ? "mobile" : ""}`}>
+                <div className={`SkillsItem ${isMobile ? "mobile" : ""}
+                ${isMoniter ? "Moniter" : ""}`}>
 
                     <div className="FrontEnd">
                         <h1 className="Sname">Front-End</h1>
@@ -114,7 +117,7 @@ const PPS = () =>{
                     </div>
                 </div>
             </div>
-            <div className={`project ${isMobile ? "mobile" : ""}`}>
+            <div className={`project ${isMobile ? "mobile" : ""}${isMoniter ? "Moniter" : ""}`}>
                 <h1 className="PJname">PROJECTS</h1>
                 <div className="PJ1">
                 <h1 className="PJNAME">포트폴리오 웹사이트</h1>
