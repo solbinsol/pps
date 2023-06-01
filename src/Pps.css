@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Black+Han+Sans&family=Secular+One&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    padding-right: 0;
+  }
+/* // font-family: 'Black Han Sans', sans-serif; */
+.header{
+    font-family: 'Secular One', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 80px;
+    color:rgb(214, 162, 65);
+    background-color: rgba(0,0,0,0);
+}
+
+.scrolled .header {
+    background: white;
+    border-bottom: 1px solid gray;
+  }
+/*색변환 스크롤 코드*/
+
+.header .logo{
+    float: left;
+    margin-left: 10px;
+    line-height: 40px;
+}
+.header .Menu{
+    float: right;
+    font-size: 20px;
+    line-height: 45px;
+}
+.header .Menu{
+    float: right;
+}
+.header li{
+    float: right;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.Intro{
+    width: 100%;
+    background-image: url("../public/images/Main.jpg");
+    object-fit: cover;
+    height: 550px;
+    color:white;
+    float: left;
+
+}
+.Intro .NameBox{
+    height: 100px;
+    margin-top: 120px;
+    text-align: center;
+    font-family: 'Black Han Sans', sans-serif;
+}
+.Intro .name{
+
+    font-size: 65px;
+    font-weight: normal;
+}
+.Intro .IntroText{
+    position: relative;
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    bottom:80px;
+}
+.line{
+    text-align: center;
+    line-height: 150px;
+    font-weight: bold;
+    font-size: 27px;
+        
+}
+.Intro .IntroText{
+    text-align: center;
+    margin: 80px;
+    
+}
+.AboutMe{
+    font-family: 'Secular One', sans-serif;
+    float: left;
+    width: 100%;
+    height: 600px;
+    
+}
+.AboutHeader{
+    height: 100px;
+}
+.AboutMe h1{
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 1px solid #000;
+    width: 500px;
+    margin: 0 auto;
+    padding-top:20px ;
+}
+.AboutItem{
+    margin-top: 50px;
+}
+.AboutItem ul{
+    list-style: none;
+    font-size: 20px;
+    margin-bottom: 60px;
+    font-family: 'Black Han Sans', sans-serif; 
+    font-size: 25px;
+    display:grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+
+}
+.AboutItem li{
+    margin-left: 30%;
+    width: 800px;
+}
+.AboutItem li span{
+
+    text-align: center;
+    margin-right: 400px;
+}
+.AboutItem li span p{
+
+    text-align: center;
+    width: 200px;
+
+}
+.AboutItem {
+    color:black;
+
+
+}
+.TT{
+    display:grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    width: 100%;
+
+}
+.Aboutfooter{
+    font-weight: bold;
+    position: relative;
+    bottom: 100px;
+    margin: 0 auto;
+    
+    width: 800px;
+
+}
+.Aboutfooter p{
+    height: 70px;
+    line-height: 70px;
+    background-color: #f0c9c9;
+    text-align: center;
+}
+.Skills {
+    font-family: 'Secular One', sans-serif;
+    float: left;
+    width: 100%;
+    height: 700px;
+    background-color: #f9c51e;
+  }
+  
+
+  @media screen and (max-width: 1040px) {
+    .AboutMe.Moniter {
+      height: 900px;
+      background-color: azure;
+    }
+    .AboutItem.Moniter ul {
+      font-size: 35px;
+      display: grid;
+      grid-template-columns: repeat(1, auto);
+      grid-template-rows: repeat(6, auto);
+      font-size: 27px;
+      margin-left: 5%;
+    }
+    .AboutItem.Moniter ul li {}
+    .AboutItem.Moniter ul li span {
+      line-height: 0;
+      position: relative;
+      bottom: 48px;
+      margin-left: 180px;
+    }
+    .AboutItem.Moniter ul li p {
+      position: relative;
+      bottom: 62px;
+      margin-left: 80px;
+    }
+    .AboutMe.Moniter .Aboutfooter {
+      position: relative;
+      bottom: 120px;
+      width: 650px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .Skills.mobile {
+      height: 1700px;
+
+    }
+    .SkillsItem.mobile {
+      margin-left: 17%;
+    }
+    .AboutMe.mobile {
+      height: 1100px;
+    }
+    .AboutItem.mobile ul {
+      font-size: 35px;
+      display: grid;
+      grid-template-columns: repeat(1, auto);
+      grid-template-rows: repeat(6, auto);
+      font-size: 27px;
+    }
+    .AboutItem.mobile ul li {
+      width: 100%;
+    }
+    .AboutItem.mobile ul li span {
+      line-height: 0;
+      position: relative;
+      bottom: 48px;
+      margin-left: 80px;
+    }
+    .AboutItem.mobile ul li p {
+      position: relative;
+      bottom: 62px;
+      margin-left: 80px;
+    }
+    .AboutMe.mobile .Aboutfooter {
+      position: relative;
+      bottom: 120px;
+      width: 650px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .Skills.mobile {
+      height: 1700px;
+    }
+    .SkillsItem.mobile{
+        margin-left: 17%;
+    }
+    }
+.SkillsItem{
+        color:#ff9f35;
+        font-size: 20px;
+        display: grid;
+        grid-template-columns:repeat(auto-fill,minmax(400px,1fr));
+        grid-template-rows: auto;
+        grid-gap: 100px;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-top: 80px;
+
+} 
+
+
+
+
+.Sname{
+    width: 400px;
+    margin-left: 30px;
+
+    border-bottom: 1px solid gray;
+
+}
+
+.Skills .SkillName{
+    
+    font-size: 50px;    color: white;
+    text-align: center;
+}
+.Skills .FrontEnd{
+    box-shadow:  4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.8);
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    border-radius: 30px;
+
+}
+.Skills .BackEnd{
+    box-shadow:  5px 5px 5px 5px black;
+    width: 500px;
+    border-radius: 30px;
+    height: 400px;
+    background-color: white;
+
+}
+.Skills .VersionControl{
+    box-shadow:  5px 5px 5px 5px black;
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    border-radius: 30px;
+}
+.SkillName{
+    border-bottom: 1px solid white;
+    width: 500px;
+    margin: 0 auto;
+    padding-top:30px ;
+}
+.ARCHIVING{
+    width: 100%;
+    float: left;
+    background-color: #222222;
+    height: 600px;
+}
+.ARCHIVING .ARname{
+    border-bottom: 1px solid white;
+    width: 400px; 
+    margin: 0 auto;
+    font-size: 50px;
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+.ARbox h1{
+    font-family: 'Secular One', sans-serif;
+    text-align: initial;
+    margin: 20px;
+    padding-top: 20px;
+}
+.TBox{
+    
+    width: 600px;
+    height: 350px;
+    text-align: initial;
+    margin: 0 auto;
+    margin-top: 60px;
+    background-color: white;
+    border-radius: 30px;
+    
+}
+
+.TBox p{
+    font-family: 'Black Han Sans', sans-serif;
+    margin: 30px;
+    font-size: 20px;
+}
+.TBox li{
+    margin: 10px;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: normal;
+}
+.Gitlink{
+    color: skyblue;
+    border-bottom: 1px solid skyblue;
+    width: 350px;
+}
+.project{
+    
+    float: left;
+    width: 100%;
+    height: 2000px;
+    background-color: #1d809f;
+}
+  
+@media screen and (max-width: 768px) {
+    .project.mobile {
+        height: 3000px;
+
+    }
+    .project.mobile .PJ1{
+        width: 700px;
+        height: 1350px;
+    }
+    .project.mobile .PJ1 img{
+        border-bottom: 1px solid #000;
+        border-right: 1px solid #000;
+        margin-left: 15%;
+    }
+    .project.mobile .PJ1 img{
+        border-bottom: 1px solid #000;
+        border-right: 1px solid #000;
+        margin-left: 15%;
+    }
+    .project.mobile .PJ1 .PJRight{
+        margin-top: 30px;
+        margin-right: 3%;
+        width: 600px;
+        height: 350px;
+        
+    }
+    .project.mobile .PJ1 .PJOP{
+
+        margin-right: 8%;
+        width: 600px;
+ 
+        
+    }
+}
+.project .PJname{
+    color:white;
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+    font-size: 50px;
+    border-bottom: 1px solid white;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+.PJNAME{
+    font-family: 'Black Han Sans', sans-serif;
+    padding-top:30px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 55px;
+    height: 30px;
+}
+.PJp{
+    text-align: center;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 24px;
+    color: gray;
+
+}
+.PJ1{
+
+    width:60%;
+    margin: 0 auto;
+    height: 800px;
+    margin-top:80px;
+    object-fit: cover;
+    border-radius: 35px;
+    background-color: white;
+}
+.PJ1 img{
+    width:550px;
+    height: 600px;
+    border: 1px solid #000;
+    margin-left: 50px;
+
+}
+.PJLeft{
+
+    float: left;
+}
+.PJRight{
+    float: right;
+    font-weight: initial;
+    margin-right: 100px;
+    font-size: 23px;
+    height: 440px;
+    width: 420px;
+    font-family: 'Black Han Sans', sans-serif;
+
+
+}
+.PJOP{
+    border-top: 1px solid #000;
+    float: right;
+    width: 500px;
+    margin-right: 30px ;
+
+}
+.PJOP ul{
+    position: relative;
+    font-family: 'Black Han Sans', sans-serif;
+    float: left;
+    font-size: 18px;
+    width: 600px;
+
+
+}
+
+.PJOP span{
+    margin-left:90px;
+    font-size: 18px;
+    color:gray
+
+}.PJOP span p{
+    margin-left: 150px;
+    line-height: 3px;
+    font-size: 18px;
+    color:gray
+}
+.PJOP ul li .TLine{
+
+
+    color:gray;
+}
