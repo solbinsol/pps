@@ -1,11 +1,177 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Black+Han+Sans&family=Secular+One&display=swap');
 
+
+
+/*미디어 쿼리 모니터*/
+@media screen and (min-width:769px) and (max-width: 1040px) {
+    .AboutMe.Moniter {
+      height: 900px;
+
+    }
+    .AboutItem.Moniter{
+        width: 800px;
+    }
+    .AboutItem.Moniter ul {
+      display: grid;
+      grid-template-columns: repeat(1, auto);
+      grid-template-rows: repeat(6, auto);
+      font-size: 26.3px;
+      margin-left: 2%;
+      line-height: 15px;
+      
+    }
+
+    .AboutItem.Moniter ul li span {
+        position: relative;
+        bottom: 18px;
+        margin-left: 100px;
+        
+    }
+    .AboutItem.Moniter ul li p {
+        margin-left: 100px;
+    }
+    .AboutMe.Moniter .Aboutfooter {
+      position: relative;
+      bottom: 70px;
+    }
+    .Skills.Moniter {
+        height: 1700px;
+      }
+    .SkillsItem.Moniter{
+          margin-left:26% ;
+    }
+    .project.Moniter {
+        height: 3300px;
+
+    }
+    .project.Moniter .PJ1{
+        width: 850px;
+        height: 1500px;
+    }
+    .project.Moniter .PJ1 img{
+        border-bottom: 1px solid #000;
+        border-right: 1px solid #000;
+        margin-left:15%;
+        width: 650px;
+        height: 750px;
+    }
+
+    .project.Moniter .PJ1 .PJRight{
+        margin-top: 10px;
+        margin-right: 18%;
+        width: 600px;
+        height: 350px;
+        font-size: 24px;
+        margin-bottom: 45px;
+        
+    }
+    .project.Moniter .PJ1 .PJOP{
+
+        margin-right: 20%;
+        width: 600px;
+ 
+        
+    }    
+  }
+  
+
+
+
+
+/**/
+
+
 /*미디어 쿼리 순서 모바일*/
 
+@media screen and (max-width: 768px) {
+
+    .AboutMe {
+      height: 1100px !important;
+    }
+    .AboutItem ul {
+      display: grid;
+      grid-template-columns: repeat(1, auto) !important;
+      grid-template-rows: repeat(6, auto);
+      font-size: 28px !important;
+      color:red;
+    }
+    .AboutItem ul li {
+        margin-left: 20%;
+    }
+    .AboutItem ul li span {
+        color:red;
+      line-height: 0;
+      position: relative;
+      bottom: 35px;
+      margin-left: 80px;
+    }
+    .AboutItem ul li p {
+      position: relative;
+      bottom: 62px;
+      margin-left: 80px;
+    }
+    .AboutMe .Aboutfooter {
+      position: relative;
+      bottom: 120px;
+      width: 650px;
+    }
+    .Skills {
+        height: 1700px;
+  
+      }
+      .SkillsItem.mobile {
+        margin-left: 17%;
+      }
+      .Skills.mobile {
+        height: 1700px;
+      }
+      .SkillsItem.mobile{
+          margin-left: 15%;
+      }
+      .SkillsItem{
+        color:#ff9f35;
+        font-size: 20px;
+        display: grid;
+        grid-template-columns:repeat(auto-fill,minmax(400px,1fr));
+        grid-template-rows: auto;
+        grid-gap: 100px;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-top: 80px;
+
+    } 
+    .project {
+        height: 3000px !important;
+        background-color: red;
+
+    }
+    .project .PJ1{
+
+        width: 700px;
+        height: 1350px;
+    }
+    .project .PJ1 img{
+        border-bottom: 1px solid #000;
+        border-right: 1px solid #000;
+        margin-left: 15%;
+    }
+    .project .PJ1 .PJRight{
+        margin-top: 30px;
+        margin-right: 3%;
+        width: 600px;
+        height: 350px;
+        
+    }
+    .project .PJ1 .PJOP{
+        margin-right: 8%;
+        width: 600px;
+    }
+  }
 
 
 
+/**/
 body, html {
     margin: 0;
     padding: 0;
@@ -175,108 +341,19 @@ body, html {
   }
   
 
-  @media screen and (max-width: 1040px) {
-    .AboutMe.Moniter {
-      height: 900px;
 
-    }
-    .AboutItem.Moniter{
-        width: 800px;
-    }
-    .AboutItem.Moniter ul {
-      display: grid;
-      grid-template-columns: repeat(1, auto);
-      grid-template-rows: repeat(6, auto);
-      font-size: 26.3px;
-      margin-left: 2%;
-      line-height: 15px;
-      
-    }
 
-    .AboutItem.Moniter ul li span {
-        position: relative;
-        bottom: 18px;
-        margin-left: 100px;
-        
-    }
-    .AboutItem.Moniter ul li p {
-        margin-left: 100px;
-    }
-    .AboutMe.Moniter .Aboutfooter {
-      position: relative;
-      bottom: 70px;
-    }
+  .SkillsItem{
+    color:#ff9f35;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns:repeat(auto-fill,minmax(400px,1fr));
+    grid-template-rows: auto;
+    grid-gap: 100px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 80px;
   }
-  
-  @media screen and (max-width: 768px) {
-    .Skills.mobile {
-      height: 1700px;
-
-    }
-    .SkillsItem.mobile {
-      margin-left: 17%;
-    }
-    .AboutMe.mobile {
-      height: 1100px;
-    }
-    .AboutItem.mobile ul {
-      font-size: 35px;
-      display: grid;
-      grid-template-columns: repeat(1, auto);
-      grid-template-rows: repeat(6, auto);
-      font-size: 27px;
-    }
-    .AboutItem.mobile ul li {
-      width: 100%;
-    }
-    .AboutItem.mobile ul li span {
-      line-height: 0;
-      position: relative;
-      bottom: 48px;
-      margin-left: 80px;
-    }
-    .AboutItem.mobile ul li p {
-      position: relative;
-      bottom: 62px;
-      margin-left: 80px;
-    }
-    .AboutMe.mobile .Aboutfooter {
-      position: relative;
-      bottom: 120px;
-      width: 650px;
-    }
-  }
-
-
-@media screen and (max-width: 1040px) {
-    .Skills.Moniter {
-      height: 1700px;
-    }
-    .SkillsItem.Moniter{
-        margin-left:26% ;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .Skills.mobile {
-      height: 1700px;
-    }
-    .SkillsItem.mobile{
-        margin-left: 17%;
-    }
-    }
-.SkillsItem{
-        color:#ff9f35;
-        font-size: 20px;
-        display: grid;
-        grid-template-columns:repeat(auto-fill,minmax(400px,1fr));
-        grid-template-rows: auto;
-        grid-gap: 100px;
-        margin-left: 8%;
-        margin-right: 8%;
-        margin-top: 80px;
-
-} 
 
 
 
@@ -303,7 +380,7 @@ body, html {
 
 }
 .Skills .BackEnd{
-    box-shadow:  5px 5px 5px 5px black;
+    box-shadow:  4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.8);
     width: 500px;
     border-radius: 30px;
     height: 400px;
@@ -311,7 +388,7 @@ body, html {
 
 }
 .Skills .VersionControl{
-    box-shadow:  5px 5px 5px 5px black;
+    box-shadow:  4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.8);
     width: 500px;
     height: 400px;
     background-color: white;
@@ -381,71 +458,9 @@ body, html {
     height: 2000px;
     background-color: #1d809f;
 }
-@media screen and (max-width: 1040px) {
-    .project.Moniter {
-        height: 3000px;
 
-    }
-    .project.Moniter .PJ1{
-        width: 850px;
-        height: 1500px;
-    }
-    .project.Moniter .PJ1 img{
-        border-bottom: 1px solid #000;
-        border-right: 1px solid #000;
-        margin-left:15%;
-        width: 650px;
-        height: 750px;
-    }
-
-    .project.Moniter .PJ1 .PJRight{
-        margin-top: 10px;
-        margin-right: 18%;
-        width: 600px;
-        height: 350px;
-        font-size: 24px;
-        margin-bottom: 45px;
-        
-    }
-    .project.Moniter .PJ1 .PJOP{
-
-        margin-right: 20%;
-        width: 600px;
- 
-        
-    }
-}
   
-@media screen and (max-width: 768px) {
-    .project.mobile {
-        height: 3000px;
 
-    }
-    .project.mobile .PJ1{
-        width: 700px;
-        height: 1350px;
-    }
-    .project.mobile .PJ1 img{
-        border-bottom: 1px solid #000;
-        border-right: 1px solid #000;
-        margin-left: 15%;
-    }
-
-    .project.mobile .PJ1 .PJRight{
-        margin-top: 30px;
-        margin-right: 3%;
-        width: 600px;
-        height: 350px;
-        
-    }
-    .project.mobile .PJ1 .PJOP{
-
-        margin-right: 8%;
-        width: 600px;
- 
-        
-    }
-}
 .project .PJname{
     color:white;
     text-align: center;

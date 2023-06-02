@@ -117,7 +117,7 @@ const PPS = () =>{
                     </div>
                 </div>
             </div>
-            <div className={`project ${isMobile ? "mobile" : ""}${isMoniter ? "Moniter" : ""}`}>
+            <div className={`project ${isMobile ? "mobile" : ""} ${isMoniter ? "Moniter" : ""}`}>
                 <h1 className="PJname">PROJECTS</h1>
                 <div className="PJ1">
                 <h1 className="PJNAME">포트폴리오 웹사이트</h1>
