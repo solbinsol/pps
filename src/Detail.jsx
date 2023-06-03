@@ -1,13 +1,13 @@
 import React from "react";
 import './Detail.css';
 import  { useEffect, useState } from "react";
-import {useMediaQuery} from 'react-responsive';
+// import {useMediaQuery} from 'react-responsive';
 import './Pps.css';
 
 const Detail = () =>{
     const [isScrolled, setIsScrolled] = useState(false);
-    const isMobile = useMediaQuery({ maxWidth: 768 });
-    const isMoniter = useMediaQuery({ maxWidth: 1040 });
+    // const isMobile = useMediaQuery({ maxWidth: 768 });
+    // const isMoniter = useMediaQuery({ maxWidth: 1040 });
     useEffect(() => {
       const handleScroll = () => {
         if (window.scrollY > 300) {
@@ -87,24 +87,24 @@ const Detail = () =>{
                     <div className="all">
                     <h3>전체화면</h3>
                         <div className="allImg"> 
-                        <img src="images/all.Png" />
-                        <img src="images/allTwo.png" />
+                        <img src="images/all.Png" alt="ss"/>
+                        <img src="images/allTwo.png" alt="ss"/>
 
                         </div>
                     </div>
                     <div className="Ban">
                         <h3>웹사이트 반 (1040px)</h3>
                         <div className="allImg"> 
-                        <img src="images/ban.Png" />
-                        <img src="images/banTwo.png" />
+                        <img src="images/ban.Png" alt="ss"/>
+                        <img src="images/banTwo.png" alt="ss"/>
 
                         </div>
                     </div>
                     <div className="Ban">
                         <h3>모바일 (768px)</h3>
                         <div className="allImg"> 
-                        <img src="images/mb.png" />
-                        <img src="images/mbTwo.png" />
+                        <img src="images/mb.png" alt="ss"/>
+                        <img src="images/mbTwo.png" alt="ss"/>
 
                         </div>
                     </div>
