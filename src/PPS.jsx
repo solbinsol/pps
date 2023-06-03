@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const PPS = () =>{
 
 
-
+    const isIphone = useMediaQuery({maxWidth:414});
     const [isScrolled, setIsScrolled] = useState(false);
     const isMobile = useMediaQuery({ maxWidth: 768 });
     const isMoniter = useMediaQuery({ maxWidth: 1040 });
@@ -26,7 +26,7 @@ const PPS = () =>{
       };
     }, []);
     return(
-        <div  className={`Container ${isScrolled ? "scrolled" : ""}`}>
+        <div  className={`Container ${isScrolled ? "scrolled" : ""}${isIphone ? "Iphone" : ""}`}>
             
 
             <div className="header">
@@ -38,7 +38,7 @@ const PPS = () =>{
                     <li>Projects</li>
                 </ul>
             </div>
-            <div className="Intro">
+            <div className={`Intro ${isIphone ? "Iphone" : ""}`}>
                 <div className="NameBox">
                 <h1 className="name">-김솔빈-<br/>웹 개발자 포트폴리오</h1>
                 </div>

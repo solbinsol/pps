@@ -172,7 +172,11 @@
     }
   }
 
-
+@media screen and (max-width: 414px) {
+    .Intro .Iphone {
+        display: none;
+      }
+  }
 
 /**/
 body, html {
