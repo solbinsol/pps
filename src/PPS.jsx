@@ -2,6 +2,7 @@ import React from "react";
 import  { useEffect, useState } from "react";
 import {useMediaQuery} from 'react-responsive';
 import './Pps.css';
+import { Link } from "react-router-dom";
 
 const PPS = () =>{
 
@@ -134,8 +135,9 @@ const PPS = () =>{
                         간단한 자기소개 , 인적 사항 , 사용가능한 기술을 작성했습니다.<br>
                         </br>웹 페이지 전체화면과 모바일에서의 화면을 <br/> 반응형으로 구현 했습니다.
                         </p>
+                        <Link to="photoreedme">
                         <input type="submit" className="DetailView"
-                        value="ReadME!"/>
+                        value="ReadME!"/> </Link>
 
 
                     </div>
@@ -163,8 +165,10 @@ const PPS = () =>{
                         Firebase를 통해 회원가입 로그인 기능을 구현하였고 firebase Database에 등록된 사진을 가져오도록 구현했습니다<br>
                         </br>
                         </p>
-                        <input type="submit" className="DetailView"
+                        <Link to="onoreedme">
+                        <input type="submit" className="ReedMeBtn"
                         value="ReadME!"/>
+                        </Link>
                     </div>
                     <div className="PJOP">
                         <ul>

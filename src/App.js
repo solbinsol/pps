@@ -3,14 +3,16 @@ import './App.css';
 import PPS from './PPS';
 
 import { BrowserRouter, Router ,Route,Routes} from 'react-router-dom';
-import DetailView from "./Detail"
+import ReedME from "./Detail"
+import ReedMETwo from "./Detail2"
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<PPS />} />
-          <Route path="/detail" element={<DetailView />} />
+          <Route path="/photoreedme" element={<ReedME />} />
+          <Route path="/onoreedme" element={<ReedMETwo />} />
         </Routes>
       </BrowserRouter>
     </div>

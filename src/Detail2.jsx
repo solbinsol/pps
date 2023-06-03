@@ -1,5 +1,5 @@
 import React from "react";
-import './Detail.css';
+import './Detail2.css';
 import  { useEffect, useState } from "react";
 import {useMediaQuery} from 'react-responsive';
 import './Pps.css';
@@ -29,49 +29,57 @@ const Detail = () =>{
 
             </div>
             <div className="RMname">
-                <h1>포트폴리오 웹사이트</h1>
+                <h1>대림듀스 원어원</h1>
             </div>
                 <div className="Summary">
                     <h2>📌 Summary</h2>
                     <div className="IF">
-                        <h3>포트폴리오 용도로 제작한 웹사이트<span> 입니다</span></h3>
+                        <h3>대림대 학교 재학생들의 사진을 월드컵 게임으로 1등을 정하고 소개팅 매칭을 해주는 웹사이트 입니다</h3>
                         <p>
- <br/> 지금 보고 있는 바로 이 웹사이트에 해당합니다.
-                            한눈에 들어오고 보기 쉬울 수 있도록 고민하여 <br/>스스로 디자인 하였습니다.
-                            <br/><br/>
-                            간단한 자기소개 , 인적 사항 , 사용가능한 기술을 작성했습니다.<br>
-                            </br>웹 페이지 전체화면과 웹사이트의 반 (1040px)모바일(768px)에서의 화면을 <br/> 반응형으로 구현 했습니다.
+ <br/> 배포는 하지 못해서 사진으로 설명하도록 하겠습니다.
+ Firebase를 통해 회원가입 로그인 기능을 구현하였고 firebase Database에 등록된 사진을 가져오도록 구현했습니다
+
                         </p>
                         <div className="KeyFeatures">
                             <h4>
                                 * 주요 기능
                             </h4>
                             <ul>
-                                <li> 간단한 자기소개</li>
-                                <li> 인적 사항</li>
-                                <li> 기술 스택</li>
+                                <li> 로그인 , 회원가입</li>
+                                <li> 월드컵 게임</li>
+                                <li> 소개팅</li>
                                 <li> GitHub 링크</li>
-                                <li>프로젝트 경험</li>
+                                <li>FireBase</li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div className="🤔 Background">
                     <div className="IF">
-                    React , Html , css 능력을 향상 시키려고 학습하려고 만든 프로젝트입니다.
-                    <br></br>
-                    어떤 웹사이트를 만들어 볼까 고민하던중 보는 사람으로 하여금
-                    개발자로서의 제가 어느 정도의 기술 능력이 있는지 파악할 수 있고 , 내 자신의 수준을 바로 파악할 수 있는 웹사이트가 포트폴리오라고 생각이 들어 진행하게 되었습니다.
-                    <br>
-                    </br>
-                    후에 돌아봐 미흡한 부분을 더 고치고 능력을 키우고 싶습니다.
+                        <p>                        팀 프로젝트 중 어떤 웹 프로젝트를 만들까  ? 하는 고민중에 "에브리타임" 이라는 어플에서 이성을 찾는 사람들을 보고 아이디어를 얻어 만들게 되었습니다.
+                        </p>
+
+
+                    <p>
+                        아이디어 자체를 너무 무겁게 생각하지 않고 가벼운 마음으로 정해 프로젝트에 대한 부담을 느끼기 보다는 재밌게 진행할 수 있었습니다
+                    </p>
+
+
+
                     </div>
                 </div>
                 <div className="Meaning">
                     <h2>🔍 Meaning</h2>
                     <div className="IF">
                         <p>
-                            React를 이용해 처음으로 혼자 진행한 프로젝트였기 떄문에, React (Node.js)에 대한 이해를 넓히는데 많은 도움이 되었습니다. 처음에는 React에 많은 기능들을 사용하고 이해하기 힘들었지만 , 이해하고 나니 스스로 많이 발전했다고 생각이 들었습니다. 
+                            프로젝트를 진행하며 DataBase나 Server를 어떻게 구현할지 고민하던중 FireBase에 대해 알게 되었습니다.
+                        </p>
+                        <p>
+                            조금 더 간단하게 데이터베이스를 구현 할 수 있었지만 여태 공부해온 서버구현 코딩과 많은 차이가 있었고 FireBase전용 코드를 사용해야 했습니다.
+                        </p>
+                        <p>
+                            이로 인해 처음에는 어려움을 느꼈으나
+                            새로 배워가는게 재미있어 의미있는 프로젝트 였습니다.
                         </p>
                     </div>
                 </div>
@@ -85,11 +93,18 @@ const Detail = () =>{
                     Reference photo
                     </h2>
                     <div className="all">
-                    <h3>전체화면</h3>
+                    <h3>회원가입 </h3>
                         <div className="allImg"> 
-                        <img src="images/all.Png" />
-                        <img src="images/allTwo.png" />
+                        <img className="Shortimg" src="images/signupPNG.Png" />
 
+                        
+                        <img className="Longimg" src="images/signupTWo.png" />
+                        <p>ID는 학교 이메일로만 받아 학교인증을 하였고
+                            Passward는 영문 + 숫자 + 특수문자 예외 처리를 했습니다.
+                        </p>
+                        <p>
+                            회원가입의 조건이 만족하면 FireBase 데이터베이스에 등록이 되는걸 볼 수 있습니다.
+                        </p>
                         </div>
                     </div>
                     <div className="Ban">

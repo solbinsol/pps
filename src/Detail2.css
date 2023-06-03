@@ -1,0 +1,16 @@
+.all .Longimg{
+    width: 650px;
+    height: 300px;
+    float: right;
+}
+.all .Shortimg{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+
+}
+.all p{
+    width:750px;
+    float: right;
+    text-align: left;
+}
