@@ -3,9 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import PPS from './PPS';
-import { BrowserRouter, Router ,Route} from 'react-router-dom';
-import DetailView from "./Detail"
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
