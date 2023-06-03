@@ -360,7 +360,30 @@ body, html {
     margin-right: 8%;
     margin-top: 80px;
   }
+  .SkillsItem .chtml{
+    object-fit: cover;
+    width: 450px;
+    height: 150px;    
 
+}
+.SkillsItem .fb{
+
+    width: 450px;
+    height: 100px;    
+
+}
+.SkillsItem .mySql{
+
+    width: 450px;
+    height: 120px;    
+
+}
+.SkillsItem .react{
+
+    width: 450px;
+    height: 100px;    
+
+}
 
 
 

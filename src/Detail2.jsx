@@ -108,11 +108,13 @@ const Detail = () =>{
                         </div>
                     </div>
                     <div className="Ban">
-                        <h3>웹사이트 반 (1040px)</h3>
+                        <h3>로그인</h3>
                         <div className="allImg"> 
-                        <img src="images/ban.Png" />
-                        <img src="images/banTwo.png" />
-
+                        <img src="images/login.Png" />
+                        <img src="images/loginSucess.png" />
+                        <p>
+                            FireBase 데이터베이스의 등록된 ID와 Passward를 입력하면 로그인이 됩니다.
+                        </p>
                         </div>
                     </div>
                     <div className="Ban">

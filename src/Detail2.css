@@ -1,6 +1,6 @@
 .all .Longimg{
     width: 650px;
-    height: 300px;
+    height: 350px;
     float: right;
 }
 .all .Shortimg{
@@ -11,6 +11,10 @@
 }
 .all p{
     width:750px;
-    float: right;
+    float: left;
     text-align: left;
+}
+
+.Ban img{
+    height: 400px;
 }
