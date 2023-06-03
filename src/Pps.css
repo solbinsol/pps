@@ -16,20 +16,24 @@
       display: grid;
       grid-template-columns: repeat(1, auto);
       grid-template-rows: repeat(6, auto);
-      font-size: 26.3px;
-      margin-left: 2%;
+      font-size: 30px;
+      margin-left: 3%;
+
       line-height: 15px;
+      width: 10px;
       
     }
 
     .AboutItem.Moniter ul li span {
         position: relative;
         bottom: 18px;
-        margin-left: 100px;
+        left: 100px;
         
     }
     .AboutItem.Moniter ul li p {
-        margin-left: 100px;
+        position: relative;
+        bottom: 18px;
+        left: 100px;
     }
     .AboutMe.Moniter .Aboutfooter {
       position: relative;
@@ -94,22 +98,21 @@
       grid-template-columns: repeat(1, auto) !important;
       grid-template-rows: repeat(6, auto);
       font-size: 28px !important;
-      color:red;
+
     }
     .AboutItem ul li {
-        margin-left: 20%;
+        margin-left: 55%;
     }
     .AboutItem ul li span {
-        color:red;
+
       line-height: 0;
       position: relative;
       bottom: 35px;
-      margin-left: 80px;
+        
     }
     .AboutItem ul li p {
       position: relative;
       bottom: 62px;
-      margin-left: 80px;
     }
     .AboutMe .Aboutfooter {
       position: relative;
@@ -143,7 +146,7 @@
     } 
     .project {
         height: 3000px !important;
-        background-color: red;
+
 
     }
     .project .PJ1{
@@ -175,6 +178,7 @@
 body, html {
     margin: 0;
     padding: 0;
+
   }
   .header {
     padding-right: 0;
@@ -279,30 +283,30 @@ body, html {
     margin-left: 4%;
 }
 .AboutItem ul{
-    width: 1000px;
+    width: 400px;
     list-style: none;
+    margin-right: 550px;
     font-size: 20px;
     margin-bottom: 60px;
     font-family: 'Black Han Sans', sans-serif; 
-    font-size: 25px;
+    font-size: 27px;
     display:grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(2, auto);
 
 }
 .AboutItem li{
-    margin-left: 30%;
-    width: 800px;
+    margin-left:100%;
+    width: 250px;
 }
 .AboutItem li span{
 
-    text-align: center;
-    margin-right: 400px;
+
 }
 .AboutItem li span p{
 
     text-align: center;
-    width: 200px;
+
 
 }
 .AboutItem {

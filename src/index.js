@@ -11,7 +11,7 @@ root.render(
   
         <React.StrictMode>
          
-              <PPS />
+            <App></App>
 
 
 
