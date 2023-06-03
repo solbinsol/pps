@@ -1,13 +1,13 @@
 import React from "react";
 import './Detail2.css';
 import  { useEffect, useState } from "react";
-import {useMediaQuery} from 'react-responsive';
+// import {useMediaQuery} from 'react-responsive';
 import './Pps.css';
 
 const Detail = () =>{
     const [isScrolled, setIsScrolled] = useState(false);
-    const isMobile = useMediaQuery({ maxWidth: 768 });
-    const isMoniter = useMediaQuery({ maxWidth: 1040 });
+    // const isMobile = useMediaQuery({ maxWidth: 768 });
+    // const isMoniter = useMediaQuery({ maxWidth: 1040 });
     useEffect(() => {
       const handleScroll = () => {
         if (window.scrollY > 300) {
