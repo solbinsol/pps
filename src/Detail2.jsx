@@ -96,7 +96,7 @@ const Detail = () =>{
 
                         <h3>메인페이지 </h3>
                         <div className="allImg"> 
-                        <img className="mainimg" src="images/pj2.jpg" />
+                        <img className="mainimg" src="images/pj2.jpg" alt="ss"/>
 
 
                         <p>ID는 학교 이메일로만 받아 학교인증을 하였고
@@ -111,10 +111,10 @@ const Detail = () =>{
 
                         <h3>회원가입 </h3>
                         <div className="allImg"> 
-                        <img className="Shortimg" src="images/signupPNG.Png" />
+                        <img className="Shortimg" src="images/signupPNG.Png" alt="ss"/>
 
                         
-                        <img className="Longimg" src="images/signupTWo.png" />
+                        <img className="Longimg" src="images/signupTWo.png" alt="ss"/>
                         <p>ID는 학교 이메일로만 받아 학교인증을 하였고
                             Passward는 영문 + 숫자 + 특수문자 예외 처리를 했습니다.
                         </p>
@@ -126,8 +126,8 @@ const Detail = () =>{
                     <div className="Ban">
                         <h3>로그인</h3>
                         <div className="allImg"> 
-                        <img src="images/login.Png" />
-                        <img src="images/loginSucess.png" />
+                        <img src="images/login.Png" alt="ss"/>
+                        <img src="images/loginSucess.png" alt="ss"/>
                         <p>
                             FireBase 데이터베이스의 등록된 ID와 Passward를 입력하면 로그인이 됩니다.
                         </p>
@@ -136,8 +136,8 @@ const Detail = () =>{
                     <div className="Ban">
                         <h3>유저정보 및 사진 등록</h3>
                         <div className="allImg">
-                        <img className="DataImg" src="images/data.jpg" /> 
-                        <img className="Fbuser" src="images/fbuser.jpg" />
+                        <img className="DataImg" src="images/data.jpg" alt="ss"/> 
+                        <img className="Fbuser" src="images/fbuser.jpg" alt="ss"/>
                         <p>회원가입 후 유저 데이터를 입력받아 user-M 데이터베이스에 업데이트 합니다.(남자 회원 데이터 베이스)</p>
 
                         </div>
@@ -145,8 +145,8 @@ const Detail = () =>{
                     <div className="Ban">
                         <h3>월드컵게임</h3>
                         <div className="allImg">
-                        <img className="vsone" src="images/vsgirl.png" /> 
-                        <img className="vstwo" src="images/vsend.png" />
+                        <img className="vsone" src="images/vsgirl.png" alt="ss"/> 
+                        <img className="vstwo" src="images/vsend.png" alt="ss"/>
                         <p>메인 기능인 월드컵 게임 , 사진 밑에 이름이 나오는게 맞으나 테스트를 위해 Firebase Stroge에 사진 파일만 넣어 이름이 나오지 않는것</p>
 
                         </div>
@@ -155,7 +155,7 @@ const Detail = () =>{
                         <h3>랭킹 (미완성)</h3>
                         <div className="allImg">
 
-                        <img className="rankimg" src="images/rank.png" />
+                        <img className="rankimg" src="images/rank.png" alt="ss"/>
                         <p>월드컵 게임에서 끝까지 남은 횟수를 바탕으로 랭킹을 선정</p>
 
                         </div>
