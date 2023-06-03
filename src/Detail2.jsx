@@ -92,8 +92,24 @@ const Detail = () =>{
                     <h2>
                     Reference photo
                     </h2>
-                    <div className="all">
-                    <h3>회원가입 </h3>
+                    <div className="Ban">
+
+                        <h3>메인페이지 </h3>
+                        <div className="allImg"> 
+                        <img className="mainimg" src="images/pj2.jpg" />
+
+
+                        <p>ID는 학교 이메일로만 받아 학교인증을 하였고
+                            Passward는 영문 + 숫자 + 특수문자 예외 처리를 했습니다.
+                        </p>
+                        <p>
+                            회원가입의 조건이 만족하면 FireBase 데이터베이스에 등록이 되는걸 볼 수 있습니다.
+                        </p>
+                        </div>
+                    </div>
+                    <div className="Ban">
+
+                        <h3>회원가입 </h3>
                         <div className="allImg"> 
                         <img className="Shortimg" src="images/signupPNG.Png" />
 
@@ -123,6 +139,24 @@ const Detail = () =>{
                         <img className="DataImg" src="images/data.jpg" /> 
                         <img className="Fbuser" src="images/fbuser.jpg" />
                         <p>회원가입 후 유저 데이터를 입력받아 user-M 데이터베이스에 업데이트 합니다.(남자 회원 데이터 베이스)</p>
+
+                        </div>
+                    </div>
+                    <div className="Ban">
+                        <h3>월드컵게임</h3>
+                        <div className="allImg">
+                        <img className="vsone" src="images/vsgirl.png" /> 
+                        <img className="vstwo" src="images/vsend.png" />
+                        <p>메인 기능인 월드컵 게임 , 사진 밑에 이름이 나오는게 맞으나 테스트를 위해 Firebase Stroge에 사진 파일만 넣어 이름이 나오지 않는것</p>
+
+                        </div>
+                    </div>
+                    <div className="Ban">
+                        <h3>랭킹 (미완성)</h3>
+                        <div className="allImg">
+
+                        <img className="rankimg" src="images/rank.png" />
+                        <p>월드컵 게임에서 끝까지 남은 횟수를 바탕으로 랭킹을 선정</p>
 
                         </div>
                     </div>

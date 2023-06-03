@@ -16,14 +16,25 @@
 }
 
 .Ban img{
-    height: 400px;
+    margin: 0 20px 20px 0;
+    ;
 }
 .Ban .DataImg{
     width: 400px;
     object-fit: cover;
     float: left;
+
 }
 .Ban .Fbuser{
-    width: 700px;
+    width: 600px;
     float: right;
+}
+.Ban .rankimg{
+    width: 650px;
+    height: 650px;
+}
+.Ban .mainimg{
+    width: 1050px;
+    height: 700px;
+
 }
