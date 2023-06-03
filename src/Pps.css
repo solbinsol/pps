@@ -88,7 +88,7 @@
 
 /*미디어 쿼리 순서 모바일*/
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width:415px) and (max-width: 768px) {
 
     .AboutMe {
       height: 1100px !important;
@@ -176,6 +176,9 @@
     .Intro .Iphone {
         display: none;
       }
+    .AboutMe{
+        display: none;
+    }
   }
 
 /**/

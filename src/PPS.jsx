@@ -49,11 +49,11 @@ const PPS = () =>{
                 매우 꼼꼼한 성격, 그리고 공부를 밥 먹듯이 하는 습관이 저의 장점입니다.</p>
                 </div>
             </div>
-            <div className={`AboutMe ${isMobile ? "mobile" : ""}${isMoniter ? "Moniter" : ""}`}>
+            <div className={`AboutMe ${isMobile ? "mobile" : ""}${isMoniter ? "Moniter" : ""}${isIphone ? "Iphone" : ""}`}>
                 <div className="AboutHeader">
                     <h1 >ABOUT ME</h1>
                 </div>
-                <div className={`AboutItem ${isMobile ? "mobile" : ""}${isMoniter ? "Moniter" : ""}`}>
+                <div className={`AboutItem ${isMobile ? "mobile" : ""}${isMoniter ? "Moniter" : ""}${isIphone ? "Iphone" : ""}`}>
                     <ul className="TT">
                         <ul>이름  &nbsp; 
  
