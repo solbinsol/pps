@@ -96,18 +96,18 @@ const PPS = () =>{
 
                     <div className="FrontEnd">
                         <h1 className="Sname">Front-End</h1>
-                        <img className="chtml" src="images/css.jpg" alt="" />
-                        <img className="react" src="images/react.jpg" alt="" />
+                        <img className="chtml" src="images/css.jpg" alt="ss" />
+                        <img className="react" src="images/react.jpg" alt="ss" />
                     </div>
                     <div className="BackEnd">
                         <h1 className="Sname">Back-End</h1>
-                        <img className="fb" src="images/firebase.jpg" alt="" />
-                        <img className="mySql" src="images/mysql.jpg" alt="" />
+                        <img className="fb" src="images/firebase.jpg" alt="ss" />
+                        <img className="mySql" src="images/mysql.jpg" alt="ss" />
 
                     </div>
                     <div className="VersionControl">
                         <h1 className="Sname">Version Control</h1>
-                        <img className="git" src="images/git.jpg" alt="" />
+                        <img className="git" src="images/git.jpg" alt="ss" />
                     </div>
                 </div>
             </div>
@@ -131,7 +131,7 @@ const PPS = () =>{
                 <p className="PJp">2023.5.29 </p>
                     <div className="PJLeft">
 
-                        <img src="./images/poplo.jpg" alt="" />
+                        <img src="./images/poplo.jpg" alt="ss" />
                     </div>
                     <div className="PJRight">
                         <p>
@@ -160,7 +160,7 @@ const PPS = () =>{
                 <p className="PJp">2023.3.20 </p>
                     <div className="PJLeft">
 
-                        <img src="./images/pj2.jpg" alt="" />
+                        <img src="./images/pj2.jpg" alt="ss" />
                     </div>
                     <div className="PJRight">
                         <p>

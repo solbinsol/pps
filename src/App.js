@@ -2,7 +2,7 @@
 import './App.css';
 import PPS from './PPS';
 
-import { BrowserRouter, Router ,Route,Routes} from 'react-router-dom';
+import { BrowserRouter ,Route,Routes} from 'react-router-dom';
 import ReedME from "./Detail"
 import ReedMETwo from "./Detail2"
 function App() {
