@@ -103,10 +103,11 @@ const PPS = () =>{
                         <h1 className="Sname">Back-End</h1>
                         <img className="fb" src="images/firebase.jpg" alt="" />
                         <img className="mySql" src="images/mysql.jpg" alt="" />
-                        
+
                     </div>
                     <div className="VersionControl">
                         <h1 className="Sname">Version Control</h1>
+                        <img className="git" src="images/git.jpg" alt="" />
                     </div>
                 </div>
             </div>
@@ -147,10 +148,10 @@ const PPS = () =>{
 
                     </div>
                     <div className="PJOP">
-                        <ul>
-                            <li>주요기능 &nbsp; <span>간단한 자기소개, 인적 사항, 기술 스택, <p>&nbsp;&nbsp;  GitHub 및 티스토리 링크, 프로젝트 경험,</p> <p>&nbsp; &nbsp; 업무 경력</p></span>     </li>
-                            <li>URL&nbsp; &nbsp; &nbsp; &nbsp; <span>ksb-portfolio.com</span></li>
-                            <li>Fontend<span className="TLine">React , Node.js , css , JS</span></li>
+                    <ul>
+                            <li>주요기능<span>자기소개/사용 가능한 기술 , 프로젝트 경험 &nbsp;&nbsp;  </span>     </li>
+                            <li>BackEnd<span>&nbsp;FireBase</span></li>
+                            <li>Fontend<span className="TLine">&nbsp;React , Node.js , css , JS</span></li>
                         </ul>
                     </div>
                 </div>
@@ -177,9 +178,9 @@ const PPS = () =>{
                     </div>
                     <div className="PJOP">
                         <ul>
-                            <li>주요기능 &nbsp; <span>로그인/회원가입 , 월드컵 게임,소개팅 <p>&nbsp;&nbsp;  </p></span>     </li>
-                            <li>BackEnd<span>FireBase</span></li>
-                            <li>Fontend<span className="TLine">React , Node.js , css , JS</span></li>
+                            <li>주요기능<span>로그인/회원가입 , 월드컵 게임,소개팅 &nbsp;&nbsp;  </span>     </li>
+                            <li>BackEnd<span>&nbsp;FireBase</span></li>
+                            <li>Fontend<span className="TLine">&nbsp;React , Node.js , css , JS</span></li>
                         </ul>
                     </div>
                 </div>

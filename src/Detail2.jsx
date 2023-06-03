@@ -118,10 +118,11 @@ const Detail = () =>{
                         </div>
                     </div>
                     <div className="Ban">
-                        <h3>모바일 (768px)</h3>
-                        <div className="allImg"> 
-                        <img src="images/mb.png" />
-                        <img src="images/mbTwo.png" />
+                        <h3>유저정보 및 사진 등록</h3>
+                        <div className="allImg">
+                        <img className="DataImg" src="images/data.jpg" /> 
+                        <img className="Fbuser" src="images/fbuser.jpg" />
+                        <p>회원가입 후 유저 데이터를 입력받아 user-M 데이터베이스에 업데이트 합니다.(남자 회원 데이터 베이스)</p>
 
                         </div>
                     </div>

@@ -18,3 +18,12 @@
 .Ban img{
     height: 400px;
 }
+.Ban .DataImg{
+    width: 400px;
+    object-fit: cover;
+    float: left;
+}
+.Ban .Fbuser{
+    width: 700px;
+    float: right;
+}
