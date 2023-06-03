@@ -96,9 +96,14 @@ const PPS = () =>{
 
                     <div className="FrontEnd">
                         <h1 className="Sname">Front-End</h1>
+                        <img className="chtml" src="images/css.jpg" alt="" />
+                        <img className="react" src="images/react.jpg" alt="" />
                     </div>
                     <div className="BackEnd">
                         <h1 className="Sname">Back-End</h1>
+                        <img className="fb" src="images/firebase.jpg" alt="" />
+                        <img className="mySql" src="images/mysql.jpg" alt="" />
+                        
                     </div>
                     <div className="VersionControl">
                         <h1 className="Sname">Version Control</h1>
