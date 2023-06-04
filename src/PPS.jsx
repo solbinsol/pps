@@ -26,7 +26,7 @@ const PPS = () =>{
       };
     }, []);
     return(
-        <div  className={`Container ${isScrolled ? "scrolled" : ""}${isIphone ? "Iphone" : ""}${isIphone}`}>
+        <div  className={`Container ${isScrolled ? "scrolled" : ""}${isIphone ? "Iphone" : ""}`}>
             
 
             <div className={`header ${isMobile ? "mobile" : ""}${isMoniter ? "Moniter" : ""}${isIphone ? "Iphone" : ""}`}>
