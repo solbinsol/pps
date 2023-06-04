@@ -96,7 +96,7 @@ const Detail = () =>{
 
                         <h3>메인페이지 </h3>
                         <div className="allImg"> 
-                        <img className="mainimg" src="images/pj2.jpg" alt="ss"/>
+                        <img className="mainimg" src="images/pj23.jpg" alt="ss"/>
 
 
                         <p>ID는 학교 이메일로만 받아 학교인증을 하였고

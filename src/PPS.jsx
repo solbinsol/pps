@@ -150,19 +150,19 @@ const PPS = () =>{
 
                     </div>
                     <div className="PJOP">
-                    <ul>
+                        <ul>
                             <li>주요기능<span>자기소개/사용 가능한 기술 , 프로젝트 경험 &nbsp;&nbsp;  </span>     </li>
                             <li>BackEnd<span>&nbsp;FireBase</span></li>
                             <li>Fontend<span className="TLine">&nbsp;React , Node.js , css , JS</span></li>
                         </ul>
                     </div>
                 </div>
-                <div className="PJ1">
+                <div className="PJ2">
                 <h1 className="PJNAME">대림듀스 원어원</h1>
                 <p className="PJp">2023.3.20 </p>
                     <div className="PJLeft">
 
-                        <img src="./images/pj2.jpg" alt="ss" />
+                        <img  src="./images/PJ2.jpg" alt="ss" />
                     </div>
                     <div className="PJRight">
                         <p>
