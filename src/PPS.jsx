@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const PPS = () =>{
 
 
-    const isIphone = useMediaQuery({maxWidth:1820});
+    const isIphone = useMediaQuery({maxWidth:414});
     const [isScrolled, setIsScrolled] = useState(false);
     const isMobile = useMediaQuery({ maxWidth: 768 });
     const isMoniter = useMediaQuery({ maxWidth: 1040 });
@@ -26,10 +26,10 @@ const PPS = () =>{
       };
     }, []);
     return(
-        <div  className={`Container ${isScrolled ? "scrolled" : ""}${isIphone ? "Iphone" : ""}`}>
+        <div  className={`Container ${isScrolled ? "scrolled" : ""}${isIphone ? "Iphone" : ""}${isIphone}`}>
             
 
-            <div className="header">
+            <div className={`header ${isMobile ? "mobile" : ""}${isMoniter ? "Moniter" : ""}${isIphone ? "Iphone" : ""}`}>
                 <h1 className="logo">KSB's Portfolio</h1>
                 <ul className="Menu">
                     <li>About me</li>
