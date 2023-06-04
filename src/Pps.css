@@ -614,11 +614,19 @@
     border-radius: 35px;
     background-color: white;
 }
-.PJ1 img{
-    width:100%;
-    height: 600px;
+.PJ1 .PJLeft{
+
+    float: left;
+    width:40%;
+    height:75%;
+    margin-left: 8%;
     border: 1px solid #000;
-    margin-left: 15%;
+}
+.PJ1 img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+
 
 }
 .PJ2{
@@ -635,13 +643,13 @@
 
 
     width:100%;
-    height: 600px;
+    height: 100%;
     border: 1px solid #000;
 }
 .PJ2 .PJLeft{
     float: left;
     width:40%;
-    height: 600px;
+    height:75%;
     margin-left: 8%;
     border: 1px solid #000;
 }
