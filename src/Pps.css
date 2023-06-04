@@ -608,7 +608,7 @@
 
     width:60%;
     margin: 0 auto;
-    height: 800px;
+    height: 40%;
     margin-top:80px;
     object-fit: cover;
     border-radius: 35px;
@@ -652,9 +652,9 @@
 .PJRight{
     float: right;
     text-align: left;
-    margin-right: 100px;
+    margin-right:8%;
     font-size: 20px;
-    height: 440px;
+    height: 65%;
     width: 40%;
     font-family: 'SUIT';
     font-weight: bold;
@@ -674,7 +674,7 @@
     font-family: 'Secular One', sans-serif;
     float: left;
     font-size: 18px;
-    width: 600px;
+    width: 100%;
 
 
 
@@ -682,7 +682,7 @@
 
 .PJOP span{
     font-family: 'SUIT';
-    margin-left:90px;
+    margin-left: 15%;
     font-size: 18px;
     color:gray;
     text-align: right;
@@ -690,7 +690,7 @@
 
 }.PJOP span p{
     font-family: 'SUIT';
-    margin-left: 150px;
+    margin-left: 15%;
     line-height: 3px;
     font-size: 18px;
     color:gray
@@ -702,8 +702,8 @@
 }
 
 input{
-    width: 200px;
-    height: 40px;
+    width: 50%;
+    height: 8%;
     font-size: 25px;
     font-family: 'Secular One', sans-serif;
     border: 0px;
