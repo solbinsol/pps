@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const PPS = () =>{
 
 
-    const isIphone = useMediaQuery({maxWidth:414});
+    const isIphone = useMediaQuery({maxWidth:1820});
     const [isScrolled, setIsScrolled] = useState(false);
     const isMobile = useMediaQuery({ maxWidth: 768 });
     const isMoniter = useMediaQuery({ maxWidth: 1040 });
@@ -53,7 +53,7 @@ const PPS = () =>{
                 <div className="AboutHeader">
                     <h1 >ABOUT ME</h1>
                 </div>
-                <div className={`AboutItem ${isMobile ? "mobile" : ""}${isMoniter ? "Moniter" : ""}${isIphone ? "Iphone" : ""}`}>
+                <div className={`AboutItem ${isMobile ? "mobile" : ""}${isMoniter ? "Moniter" : ""}`}>
                     <ul className="TT">
                         <ul>이름  &nbsp; 
  
@@ -67,10 +67,10 @@ const PPS = () =>{
                         <li><span>경기도 수원시</span></li>
                         </ul>
                         <ul>연락처  &nbsp;
-                        <li><span>010-6286-7011</span></li>
+                        <li><span className="phone">010-6286-7011</span></li>
                         </ul>
                         <ul>이메일
-                        <li><span>qkaejwnj@naver.com</span></li>
+                        <li><span className="email">qkaejwnj@naver.com</span></li>
                         </ul>
                         <ul>학력  &nbsp;   &nbsp; 
                         <li>
@@ -93,22 +93,24 @@ const PPS = () =>{
                     </div>
                 <div className={`SkillsItem ${isMobile ? "mobile" : ""}
                 ${isMoniter ? "Moniter" : ""}`}>
+                    <div className={`Item ${isMobile ? "mobile" : ""}
+                ${isMoniter ? "Moniter" : ""}`}>
+                        <div className="FrontEnd">
+                            <h1 className="Sname">Front-End</h1>
+                            <img className="chtml" src="images/css.jpg" alt="ss" />
+                            <img className="react" src="images/react.jpg" alt="ss" />
+                        </div>
+                        <div className="BackEnd">
+                            <h1 className="Sname">Back-End</h1>
+                            <img className="fb" src="images/firebase.jpg" alt="ss" />
+                            <img className="mySql" src="images/mysql.jpg" alt="ss" />
 
-                    <div className="FrontEnd">
-                        <h1 className="Sname">Front-End</h1>
-                        <img className="chtml" src="images/css.jpg" alt="ss" />
-                        <img className="react" src="images/react.jpg" alt="ss" />
-                    </div>
-                    <div className="BackEnd">
-                        <h1 className="Sname">Back-End</h1>
-                        <img className="fb" src="images/firebase.jpg" alt="ss" />
-                        <img className="mySql" src="images/mysql.jpg" alt="ss" />
-
-                    </div>
-                    <div className="VersionControl">
-                        <h1 className="Sname">Version Control</h1>
-                        <img className="git" src="images/git.jpg" alt="ss" />
-                    </div>
+                        </div>
+                        <div className="VersionControl">
+                            <h1 className="Sname">Version Control</h1>
+                            <img className="git" src="images/git.jpg" alt="ss" />
+                        </div>
+                        </div>
                 </div>
             </div>
             <div className="ARCHIVING">
