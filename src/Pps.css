@@ -111,7 +111,7 @@
 
 /*미디어 쿼리 순서 모바일*/
 
-@media screen and (max-width: 768px)  and (min-width:415px) {
+@media screen and (max-width: 768px)  and (min-width:600px) {
  
     .AboutMe {
       height: 1100px !important;
@@ -201,11 +201,7 @@
     }
   }
 
-@media screen and (max-width:414px) {
-    *{
-        display: none !important;
-    }
-}
+
 
 /**/
 
@@ -605,7 +601,7 @@
     float: left;
     font-size: 18px;
     width: 600px;
-    color: yellowgreen;
+
 
 
 }
