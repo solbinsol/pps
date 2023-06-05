@@ -9,21 +9,19 @@
 @media screen and (min-width:769px) and (max-width: 1040px) {
 
     .AboutMe .Moniter{
-      width: 100%;
+      width: 90%;margin-top: 80px;
 
-        margin-top: 80px;
+
     }
 
     .AboutItem ul {
-    width: 100%;
+    width: 90%;
 
       line-height: 15px;
 
     }
 
     .AboutItem ul li .email{
-
-
         font-size: 20px;
         bottom: 5px;
 
@@ -55,6 +53,10 @@
     .SkillsItem .Item.Moniter{
         width: 80%;
         margin: 0 auto;
+    }
+    .ARCHIVING.Moniter{
+        width: 100%;
+
     }
     .project.Moniter {
         height: 3500px;
@@ -167,17 +169,17 @@
     .AboutMe {
       height: 1100px !important;
       width: 100%;
-    }
-    .AboutItem{
+      background-color: red;
 
+ 
     }
+
     .AboutItem ul {
-
-        width: 40%;
+        
       display: grid;
       grid-template-columns: repeat(1, auto) !important;
       grid-template-rows: repeat(6, auto);
-      font-size: 28px !important;
+      font-size: 25px !important;
 
 
 
@@ -202,7 +204,7 @@
         margin-left: 25%;
         bottom: 35px;
         color:gray;
-        font-size: 18px;
+        font-size: 16px;
           
       }
       .AboutItem ul li .phone {
@@ -227,7 +229,9 @@
       width: 70%;
       font-size: 13px;
     }
-
+    .AboutMe .Aboutfooter p {
+        font-size: 10px;
+      }
 
       .Skills.mobile {
 
@@ -235,8 +239,11 @@
         width: 100%;
       }
 
+      .Skills.mobile img {
+        width: 80%;
+      }
       .SkillsItem.mobile{
-        width: 100%;
+        width: 70%;
         margin: 0 auto;
         color:#ff9f35;
         font-size: 20px;
@@ -353,6 +360,7 @@
 
 .Container{
     max-width:100%; margin:0 auto;
+    overflow-x:hidden;
 }
 
 /* // font-family: 'Black Han Sans', sans-serif; */
@@ -446,7 +454,7 @@
     text-align: center;
     font-size: 50px;
     border-bottom: 1px solid #000;
-    width: 500px;
+    width: 80%;
     margin: 0 auto;
     padding-top:20px ;
 }
@@ -514,7 +522,7 @@
     font-family: 'Secular One', sans-serif;
     float: left;
     width: 100%;
-    height: 1200px;
+    height: 1600px;
     background-color: #f9c51e;
   }
   
@@ -522,76 +530,73 @@
 
 
   .SkillsItem{
-    width: 85%;
+    width: 30%;
     color:#ff9f35;
     font-size: 20px;
-    grid-gap: 100px;
+    
     margin: 0 auto;
     margin-top: 5%;
 
     
   }
-  .Item{
+  .SkillsItem.Item{
     display: grid;
-    grid-template-columns:repeat(auto-fill,minmax(400px,1fr));
+
     grid-template-rows: repeat(3, auto);
-    grid-gap: 100px;
-    margin: 0 auto;
+    grid-gap: 10%;
+
 
 
   }
 
   .SkillsItem .chtml{
-    
-    object-fit: cover;
-    width: 450px;
-    height: 150px;    
+
+    width: 100%;
+    height: 40%;    
 
 }
 .SkillsItem .fb{
-
-    width: 450px;
-    height: 100px;    
+    width: 90%;
+    height: 20%;     
 
 }
 .SkillsItem .mySql{
 
-    width: 450px;
-    height: 120px;    
+    width: 90%;
+    height: 40%;       
 
 }
 .SkillsItem .react{
 
-    width: 450px;
-    height: 100px;    
+    width: 90%;
+    height: 30%;       
 
 }
 .SkillsItem .git{
 
-    width: 500px;
-    height: 270px;    
+    width: 100%;
+    height: 60%;    
 
 }
 
 
 
 .Sname{
-    width: 400px;
-    margin-left: 30px;
-
+    width: 80%;
+    margin-left: 10%;
     border-bottom: 1px solid gray;
 
 }
 
 .Skills .SkillName{
-    
     font-size: 50px;    
     text-align: center;
     color: white;
+    width: 25%;
 }
 .Skills .FrontEnd{
     box-shadow:  4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.8);
-    width: 500px;
+    width: 100%;
     height: 400px;
     background-color: white;
     border-radius: 30px;
@@ -599,22 +604,21 @@
 }
 .Skills .BackEnd{
     box-shadow:  4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.8);
-    width: 500px;
+    width: 100%;
     border-radius: 30px;
     height: 400px;
     background-color: white;
-
 }
 .Skills .VersionControl{
     box-shadow:  4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.8);
-    width: 500px;
+    width: 100%;
     height: 400px;
     background-color: white;
     border-radius: 30px;
 }
 .SkillName{
     border-bottom: 1px solid white;
-    width: 500px;
+    width: 100%;
     margin: 0 auto;
     padding-top:30px ;
 }

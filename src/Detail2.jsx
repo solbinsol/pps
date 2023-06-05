@@ -97,14 +97,11 @@ const Detail = () =>{
                         <h3>메인페이지 </h3>
                         <div className="allImg"> 
                         <img className="mainimg" src="images/pj23.jpg" alt="ss"/>
+                        
 
-
-                        <p>ID는 학교 이메일로만 받아 학교인증을 하였고
-                            Passward는 영문 + 숫자 + 특수문자 예외 처리를 했습니다.
+                        <p>처음 시작하는 메인 페이지 입니다.
                         </p>
-                        <p>
-                            회원가입의 조건이 만족하면 FireBase 데이터베이스에 등록이 되는걸 볼 수 있습니다.
-                        </p>
+ 
                         </div>
                     </div>
                     <div className="Ban">
@@ -151,15 +148,7 @@ const Detail = () =>{
 
                         </div>
                     </div>
-                    <div className="Ban">
-                        <h3>랭킹 (미완성)</h3>
-                        <div className="allImg">
 
-                        <img className="rankimg" src="images/rank.png" alt="ss"/>
-                        <p>월드컵 게임에서 끝까지 남은 횟수를 바탕으로 랭킹을 선정</p>
-
-                        </div>
-                    </div>
 
                 </div>
                 <div className="Bin"></div>
