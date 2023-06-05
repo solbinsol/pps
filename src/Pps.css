@@ -202,12 +202,15 @@
       grid-template-columns: repeat(1, auto) !important;
       grid-template-rows: repeat(6, auto);
       font-size: 20px !important;
-
+      position: relative;
+      right: 5%;
 
 
     }
     .AboutItem ul li {
-        margin-left: 20%;
+        position: relative;
+        top:9px;
+        left: 20%;
     }
     .AboutItem ul li span {
         color:red;
