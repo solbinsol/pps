@@ -9,7 +9,7 @@
 @media screen and (min-width:769px) and (max-width: 1040px) {
 
     .AboutMe .Moniter{
-      width: 90%;margin-top: 80px;
+      width: 100% ;margin-top: 80px;
 
 
     }
@@ -50,8 +50,8 @@
       .SkillsItem.Moniter{
         width: 65%;
       }
-    .SkillsItem .Item.Moniter{
-        width: 80%;
+    .SkillsItem.Moniter .Item{
+        width: 90%;
         margin: 0 auto;
     }
     .ARCHIVING.Moniter{
@@ -160,6 +160,14 @@
 /*미디어 쿼리 순서 모바일*/
 
 @media screen and (max-width: 767px) {
+    .AboutMe h1{
+
+        width: 70% !important;
+
+    }
+    .ARCHIVING .TBox{
+        width: 85%;
+    }
     .line{
 
         margin-right: 24% !important;
@@ -181,19 +189,19 @@
         display: none;
     }
     .AboutMe {
-      height: 1100px !important;
+      height: 800px !important;
       width: 100%;
-
-
- 
+    }
+    .AboutmMe .AboutHeader h1{
+        color: red;
     }
 
     .AboutItem ul {
-        
+    
       display: grid;
       grid-template-columns: repeat(1, auto) !important;
       grid-template-rows: repeat(6, auto);
-      font-size: 25px !important;
+      font-size: 20px !important;
 
 
 
@@ -202,7 +210,7 @@
         margin-left: 20%;
     }
     .AboutItem ul li span {
-
+        color:red;
       line-height: 0;
       position: relative;
       width: 100%;
@@ -238,15 +246,14 @@
       color:gray;
     }
     .AboutMe .Aboutfooter {
-      position: relative;
-      bottom: 120px;
-      width: 70%;
-      font-size: 13px;
+        display: none;
     }
     .AboutMe .Aboutfooter p {
         font-size: 10px;
       }
-
+      .Skills.mobile .SkillName{
+        width: 80% !important;
+      }
       .Skills.mobile {
 
         height: 1700px;
@@ -274,7 +281,9 @@
 
 
     }
-
+    .project .PJname{
+        width: 80% !important;
+    }
     .project .PJ1{
         
         width: 80%;
@@ -472,7 +481,7 @@
     text-align: center;
     font-size: 50px;
     border-bottom: 1px solid #000;
-    width: 25%;
+    width: 30%;
     margin: 0 auto;
     padding-top:20px ;
 }
