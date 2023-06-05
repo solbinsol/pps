@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const PPS = () =>{
 
 
-    const isIphone = useMediaQuery({ maxWidth: 414 });
+    // const isIphone = useMediaQuery({ maxWidth: 414 });
     const [isScrolled, setIsScrolled] = useState(false);
     const isMobile = useMediaQuery({ maxWidth: 768 });
     const isMoniter = useMediaQuery({ maxWidth: 1040 });
