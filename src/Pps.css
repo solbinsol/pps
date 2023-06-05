@@ -160,7 +160,21 @@
 /*미디어 쿼리 순서 모바일*/
 
 @media screen and (max-width: 767px) {
-    .ARCHIVING .TBox{
+    .line{
+
+        margin-right: 24% !important;
+
+    }
+    .name{
+
+        font-size: 50px !important;
+    }
+    .IntroText{
+
+        font-size:19px !important;
+    }
+    
+    .ARCHIVING .TBox.name{
         width: 90%;
     }
     .header .Menu{
@@ -169,7 +183,7 @@
     .AboutMe {
       height: 1100px !important;
       width: 100%;
-      background-color: red;
+
 
  
     }
@@ -412,6 +426,7 @@
 
 }
 .Intro .NameBox{
+    width: 100%;
     height: 100px;
     margin-top: 120px;
     text-align: center;
@@ -419,14 +434,15 @@
 }
 .Intro .name{
 
-    font-size: 65px;
+    font-size: 60px;
     font-weight: normal;
+
 }
 .Intro .IntroText{
     position: relative;
-    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'SUIT';
     font-weight: normal;
-    font-size: 25px;
+    font-size: 22px;
     bottom:80px;
 }
 .line{
@@ -434,6 +450,8 @@
     line-height: 150px;
     font-weight: bold;
     font-size: 27px;
+    width: 70%;
+    margin: 0 auto;
         
 }
 .Intro .IntroText{
@@ -454,11 +472,12 @@
     text-align: center;
     font-size: 50px;
     border-bottom: 1px solid #000;
-    width: 80%;
+    width: 25%;
     margin: 0 auto;
     padding-top:20px ;
 }
 .AboutItem{
+
     width: 80%;
     margin: 0 auto;
     text-align: left;
@@ -470,7 +489,7 @@
     list-style: none;
     font-size: 20px;
     margin-bottom: 60px;
-    font-family: 'Black Han Sans', sans-serif; 
+    font-family: 'SUIT';
     font-size: 27px;
     display:grid;
     grid-template-columns: repeat(2, auto);
@@ -645,7 +664,7 @@
     padding-top: 20px;
 }
 .TBox{
-    
+
     width: 40%;
     height: 350px;
     text-align: initial;
@@ -663,7 +682,7 @@
 }
 .TBox li{
     margin: 2%;
-    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'SUIT';
     font-size: 20px;
     padding: 2%;
     font-weight: normal;

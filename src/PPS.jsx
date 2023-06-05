@@ -38,11 +38,11 @@ const PPS = () =>{
                     <li>Projects</li>
                 </ul>
             </div>
-            <div className={`Intro ${isIphone ? "Iphone" : ""}`}>
+            <div className={`Intro ${isMobile ? "mobile" : ""}`}>
                 <div className="NameBox">
                 <h1 className="name">-김솔빈-<br/>웹 개발자 포트폴리오</h1>
                 </div>
-                <div className="line">___________________________________________</div>
+                <div className="line">_______________________________________</div>
                 <div className="IntroText">
                 <p>안녕하세요.<br/>
                 공부가 취미인 풀 스택 웹 개발자입니다.<br/>
