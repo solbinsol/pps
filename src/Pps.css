@@ -10,45 +10,39 @@
 
     .AboutMe .Moniter{
       width: 100%;
-      margin: 0 auto;
+
         margin-top: 80px;
     }
-    .AboutItem .Moniter{
 
-        width: 100%;
-    }
     .AboutItem ul {
-      display: grid;
-      grid-template-columns: repeat(1, auto);
-      grid-template-rows: repeat(6, auto);
-      font-size: 30px;
-    width: 91%;
+    width: 100%;
+
       line-height: 15px;
-      margin: 0 auto;
+
     }
 
     .AboutItem ul li .email{
-        position: relative;
+
+
         font-size: 20px;
         bottom: 5px;
+
     }
     .AboutItem ul li span{
-        position: relative;
-        left: 20px;
+        font-size: 25px;
+
 
     }
     .AboutItem ul li .phone{
-        position: relative;
+        font-size:18px;
 
     }
     .AboutItem.Moniter ul li p {
-        position: relative;
-        bottom: 18px;
-        left: 20px;
+        line-height: 0;
 
     }
     .AboutMe.Moniter .Aboutfooter {
-      position: relative;
+      width: 80%;
       bottom: 70px;
     }
     .Skills.Moniter {
@@ -137,7 +131,7 @@
     .project.Moniter .PJ1 .PJRight{
         width: 80%;
         margin-top: 20px;
-        color:red;
+
         height: 350px;
         font-size: 23px;
         margin-bottom: 45px;
@@ -175,9 +169,11 @@
       width: 100%;
     }
     .AboutItem{
-      width: 100%;
+
     }
     .AboutItem ul {
+
+        width: 40%;
       display: grid;
       grid-template-columns: repeat(1, auto) !important;
       grid-template-rows: repeat(6, auto);
@@ -187,7 +183,7 @@
 
     }
     .AboutItem ul li {
-        margin-left: 10%;
+        margin-left: 20%;
     }
     .AboutItem ul li span {
 
@@ -228,7 +224,8 @@
     .AboutMe .Aboutfooter {
       position: relative;
       bottom: 120px;
-      width: 85%;
+      width: 70%;
+      font-size: 13px;
     }
 
 
@@ -237,15 +234,16 @@
         height: 1700px;
         width: 100%;
       }
+
       .SkillsItem.mobile{
         width: 100%;
         margin: 0 auto;
         color:#ff9f35;
         font-size: 20px;
         display: grid;
-        grid-template-columns:repeat(auto-fill,minmax(400px,1fr));
+        grid-template-columns:repeat(auto-fill,minmax(1fr,1fr));
         grid-template-rows: auto;
-        grid-gap: 100px;
+        grid-gap:5%;
 
         margin-top: 80px;
       }
@@ -655,7 +653,7 @@
 
 .TBox p{
     font-family: 'Black Han Sans', sans-serif;
-    margin: 5%;
+    margin-left: 5%;
     font-size: 20px;
 }
 .TBox li{
