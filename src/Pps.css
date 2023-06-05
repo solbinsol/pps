@@ -585,8 +585,9 @@
 
 .Skills .SkillName{
     
-    font-size: 50px;    color: white;
+    font-size: 50px;    
     text-align: center;
+    color: white;
 }
 .Skills .FrontEnd{
     box-shadow:  4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.8);
