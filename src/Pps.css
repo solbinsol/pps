@@ -63,13 +63,13 @@
         margin: 0 auto;
     }
     .project.Moniter {
-        height: 2900px;
+        height: 3500px;
         width: 100%;
 
     }
     .project.Moniter .PJ2{
         width: 80%;
-        height: 1300px;
+        height: 1600px;
         margin: 0 auto;
         
     }
@@ -81,15 +81,12 @@
 
         
     }
-    .project.Moniter .PJ1 .PJLeft{
-        position: relative;
-        right: 8%;
-        width:90%;
-     
-        }
+
+
     .project.Moniter .PJ2 .PJLeft{
 
     width:90%;
+    height: 55%;
     margin-left: 5%;
  
     }
@@ -97,7 +94,7 @@
     .project.Moniter .PJ2 .PJRight{
         width: 80%;
         margin-top: 20px;
-        
+        color:red;
         height: 350px;
         font-size: 23px;
         margin-bottom: 45px;
@@ -115,12 +112,21 @@
 
     .project.Moniter .PJ1{
         width: 80%;
-        height: 1300px;
+        height: 1600px;
 
         
     }
-    .project.Moniter .PJ1 img{
+    .project.Moniter .PJ1 .PJLeft{
 
+        margin-left: 5%;
+        width:90%;
+        height: 55%;
+        
+        
+     
+        }
+    .project.Moniter .PJ1 img{
+        width: 100%;
         border-bottom: 1px solid #000;
         border-right: 1px solid #000;
 
@@ -131,7 +137,7 @@
     .project.Moniter .PJ1 .PJRight{
         width: 80%;
         margin-top: 20px;
-        
+        color:red;
         height: 350px;
         font-size: 23px;
         margin-bottom: 45px;
@@ -158,7 +164,12 @@
 /*미디어 쿼리 순서 모바일*/
 
 @media screen and (max-width: 767px) and (min-width:415px){
- 
+    .ARCHIVING .TBox{
+        width: 90%;
+    }
+    .header .Menu{
+        display: none;
+    }
     .AboutMe {
       height: 1100px !important;
       width: 100%;
@@ -171,79 +182,158 @@
       grid-template-columns: repeat(1, auto) !important;
       grid-template-rows: repeat(6, auto);
       font-size: 28px !important;
-      
+
 
 
     }
     .AboutItem ul li {
-        margin: 0 auto;
+        margin-left: 10%;
     }
     .AboutItem ul li span {
 
       line-height: 0;
       position: relative;
+      width: 100%;
       bottom: 35px;
+      margin-left: 25%;
+      color:gray
         
     }
+    .AboutItem ul li .email {
+
+        line-height: 0;
+        position: relative;
+        margin-left: 25%;
+        bottom: 35px;
+        color:gray;
+        font-size: 18px;
+          
+      }
+      .AboutItem ul li .phone {
+
+        line-height: 0;
+        position: relative;
+        margin-left: 25%;
+        bottom: 35px;
+        color:gray;
+        font-size: 21px;
+          
+      }
     .AboutItem ul li p {
+        margin-left: 25%;
       position: relative;
       bottom: 62px;
+      color:gray;
     }
     .AboutMe .Aboutfooter {
       position: relative;
       bottom: 120px;
-      width: 650px;
+      width: 85%;
     }
-    .Skills {
-        height: 1700px;
-  
-      }
-      .SkillsItem.mobile {
-        margin-left: 17%;
-      }
+
+
       .Skills.mobile {
+
         height: 1700px;
+        width: 100%;
       }
       .SkillsItem.mobile{
-          margin-left: 8%;
-      }
-      .SkillsItem{
+        width: 100%;
+        margin: 0 auto;
         color:#ff9f35;
         font-size: 20px;
         display: grid;
         grid-template-columns:repeat(auto-fill,minmax(400px,1fr));
         grid-template-rows: auto;
         grid-gap: 100px;
-        margin-left: 8%;
-        margin-right: 8%;
-        margin-top: 80px;
 
-    } 
+        margin-top: 80px;
+      }
+
     .project {
-        height: 3000px !important;
+        height: 1900px !important;
 
 
     }
     .project .PJ1{
+        
+        width: 80%;
+        height: 780px;
 
-        width: 700px;
-        height: 1350px;
+    }
+    .project .PJ1 .PJLeft{
+        height: 50%;
+        width: 80%;
+
+        margin-bottom: 5%;
+        margin-left: 10%;
+ 
     }
     .project .PJ1 img{
         border-bottom: 1px solid #000;
         border-right: 1px solid #000;
-        margin-left: 15%;
+
     }
     .project .PJ1 .PJRight{
-        margin-top: 30px;
-        margin-right: 3%;
-        width: 600px;
-        height: 350px;
+        width: 80%;
+        height: 50px;
+    }
+    .project .PJ1 .MoP{
+        display: none;
+
+    }
+    .project .PJ1 .DetailView{
+        width: 50%;
+        height:100%;
+        
+
         
     }
     .project .PJ1 .PJOP{
-        margin-right: 8%;
-        width: 600px;
+        margin-top: 5%;
+        margin-right: 15%;
+        width: 80%;
+    }
+
+    /**/
+    .project .PJ2{
+        
+        width: 80%;
+        height: 780px;
+
+    }
+    .project .PJ2 .PJLeft{
+        height: 50%;
+        width: 80%;
+
+        margin-bottom: 5%;
+        margin-left: 10%;
+ 
+    }
+    .project .PJ2 img{
+        border-bottom: 1px solid #000;
+        border-right: 1px solid #000;
+
+    }
+    .project .PJ2 .PJRight{
+        width: 80%;
+        height: 50px;
+    }
+    .project .PJ2 .MoP{
+        display: none;
+
+    }
+    .project .PJ2 .DetailView{
+        width: 50%;
+        height:100%;
+        
+
+        
+    }
+    .project .PJ2 .PJOP{
+        margin-top: 5%;
+        margin-right: 15%;
+        width: 80%;
     }
   }
 
@@ -427,7 +517,7 @@
     font-size: 20px;
     grid-gap: 100px;
     margin: 0 auto;
-    margin-top: 10%;
+    margin-top: 5%;
 
     
   }
@@ -541,7 +631,7 @@
 }
 .TBox{
     
-    width: 600px;
+    width: 30%;
     height: 350px;
     text-align: initial;
     margin: 0 auto;

@@ -26,10 +26,10 @@ const PPS = () =>{
       };
     }, []);
     return(
-        <div  className={`Container ${isScrolled ? "scrolled" : ""}${isIphone ? "Iphone" : ""}`}>
+        <div  className={`Container ${isScrolled ? "scrolled" : ""}`}>
             
 
-            <div className={`header ${isMobile ? "mobile" : ""}${isMoniter ? "Moniter" : ""}${isIphone ? "Iphone" : ""}`}>
+            <div className={`header ${isMobile ? "mobile" : ""}${isMoniter ? "Moniter" : ""}`}>
                 <h1 className="logo">KSB's Portfolio</h1>
                 <ul className="Menu">
                     <li>About me</li>
@@ -49,7 +49,7 @@ const PPS = () =>{
                 매우 꼼꼼한 성격, 그리고 공부를 밥 먹듯이 하는 습관이 저의 장점입니다.</p>
                 </div>
             </div>
-            <div className={`AboutMe ${isMobile ? "mobile" : ""}${isMoniter ? "Moniter" : ""}${isIphone ? "Iphone" : ""}`}>
+            <div className={`AboutMe ${isMobile ? "mobile" : ""}${isMoniter ? "Moniter" : ""}`}>
                 <div className="AboutHeader">
                     <h1 >ABOUT ME</h1>
                 </div>
@@ -88,7 +88,7 @@ const PPS = () =>{
             </div>
             <div className={`Skills ${isMobile ? "mobile" : ""}
             ${isMoniter ? "Moniter" : ""}`}>
-            <div className="AboutHeader">
+                <div className="AboutHeader">
                     <h1 className="SkillName">SKILLS</h1>
                     </div>
                 <div className={`SkillsItem ${isMobile ? "mobile" : ""}
@@ -113,7 +113,8 @@ const PPS = () =>{
                         </div>
                 </div>
             </div>
-            <div className="ARCHIVING">
+            <div className={`ARCHIVING ${isMobile ? "mobile" : ""}
+                ${isMoniter ? "Moniter" : ""}`}>
                 <h1 className="ARname">ARCHIVING</h1>
                 <div className="ARbox">
 
@@ -136,7 +137,7 @@ const PPS = () =>{
                         <img src="./images/poplo.jpg" alt="ss" />
                     </div>
                     <div className="PJRight">
-                        <p>
+                        <p className="MoP">
                         포트폴리오 용도로 제작한 웹사이트입니다.<br/> 지금 보고 있는 바로 이 웹사이트에 해당합니다.<br/><br/>
                         한눈에 들어오고 보기 쉬울 수 있도록 고민하여 <br/>스스로 디자인 하였습니다.
                         <br/><br/>
@@ -165,7 +166,7 @@ const PPS = () =>{
                         <img  src="./images/PJ2.jpg" alt="ss" />
                     </div>
                     <div className="PJRight">
-                        <p>
+                        <p className="MoP"> 
                         학교에서 진행하는 캡스톤 프로젝트 입니다<br/> 대림대학교 재학생들의 사진을 월드컵 게임으로 1등을 정하고 <br/>소개팅도 매칭해주는 웹사이트 입니다.<br/><br/>
                         인터페이스 UI를 최대한 단순하게 디자인해
                         사용자가 <br/>부담을 느끼지 않고 이용할 수 있도록 만들었습니다
@@ -174,7 +175,7 @@ const PPS = () =>{
                         </br>
                         </p>
                         <Link to="onoreedme">
-                        <input type="submit" className="ReedMeBtn"
+                        <input type="submit" className="DetailView"
                         value="ReadME!"/>
                         </Link>
                     </div>
