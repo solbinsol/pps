@@ -56,8 +56,6 @@ const PPS = () =>{
                 <div className={`AboutItem ${isMobile ? "mobile" : ""}${isMoniter ? "Moniter" : ""}`}>
                     <ul className="TT">
                         <ul>이름  &nbsp; 
- 
-                        
                         <li><span>김솔빈</span></li>
                         </ul>
                         <ul>생년월일
